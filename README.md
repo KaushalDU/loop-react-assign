@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Loop Subscription App Subscription Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is the front-end code for the subscription page of the Loop Subscription App. It is built with React and Tailwind CSS to create a responsive and user-friendly interface.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The subscription page allows users to manage their subscriptions, view upcoming orders, and access various subscription-related features. The page consists of several key components: Navbar, Hero, Body, and Footer.
 
-### `npm start`
+## Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Navbar
+The `Navbar` component provides navigation options for the users. It includes dropdown menus for "Shop Subscription" and "Bundles" along with buttons for "Manage Subscriptions", "Recharge Alternative", search, login, and cart functionalities.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Navbar Screenshot](screens/navbar-screenshot.png)
 
-### `npm test`
+### Hero
+The `Hero` component displays a welcoming message with a background image and a highlighted product image. It aims to provide an engaging introduction to the subscription services.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Hero Screenshot](screens/hero-screenshot.png)
 
-### `npm run build`
+### Body
+The `Body` component displays detailed information about the user's active subscription, including the subscription ID, status, cost, delivery frequency, and upcoming order details. Users can also take actions like ordering now, skipping, or postponing their next delivery.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Body Screenshot](screens/body-screenshot.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Product
+The `Product` component highlights the featured products available through the subscription service. It includes product images, descriptions, and pricing information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Product Screenshot](screens/product-screenshot.png)
 
-### `npm run eject`
+### Saving Plan
+The `Saving Plan` component provides details about the various subscription plans available to users. It includes information on the cost savings associated with each plan, encouraging users to choose the most cost-effective option.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Saving Plan Screenshot](screens/saving-plan-screenshot.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Bonus Offer
+The `Bonus Offer` component outlines the special bonuses and offers available to subscribers. This includes discounts on orders, free consultations, and other exclusive perks.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Bonus Offer Screenshot](screens/bonus-offer-screenshot.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Footer
+The `Footer` component provides additional navigation links and resources, including sections for resources, migration, app comparisons, integrations, help, and legal information. It also includes a button to follow on the shop and options to select the country/region and language.
 
-## Learn More
+![Footer Screenshot](screens/footer-screenshot.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Responsive Design:** The page is fully responsive and adapts to various screen sizes, including desktop, tablet, and mobile.
+- **User-Friendly Navigation:** The navbar includes dropdown menus for easy access to different subscription categories.
+- **Subscription Management:** Users can view and manage their subscriptions, including actions like ordering now, skipping, or postponing deliveries.
+- **Engaging UI:** The hero section provides a visually appealing introduction to the subscription service.
 
-### Code Splitting
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To run this project locally:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/loop-subscription-app.git
