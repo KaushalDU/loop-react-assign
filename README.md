@@ -55,10 +55,10 @@ The `Footer` component provides additional navigation links and resources, inclu
 
 The live version of this project is deployed on Vercel. You can access the application through the following link:
 
-**Deploy Link**: [loop-react-assign-6e0sxqczf-kaushals-projects-9652eed7.vercel.app]
+**Deploy Link**: (loop-react-assign-6e0sxqczf-kaushals-projects-9652eed7.vercel.app)
 
 Feel free to explore the features of this project. If you encounter any issues or have any feedback, you can use the "Feedback" page to share your thoughts with us.
 
 Thank you for using ! We hope you have a wonderful experience using our platform. If you have any questions or need assistance, please don't hesitate to contact our support team.
 
-Happy bridging! 🌉
+Thanks! 🌉
