@@ -7,6 +7,7 @@ const Footer = () => {
       <div className="bg-[#6811ff] text-white p-6 md:p-8">
         <div className="container mx-auto text-center">
           <div className="mb-6">
+            <h3>Rated on <span className='text-yellow-300'>★★★★★</span> Shopify Store</h3>
             <h2 className="text-xl md:text-2xl font-bold">This store is powered by Loop subscriptions!</h2>
             <p className="mt-2 text-sm md:text-base">Turn your customers into subscribers and drive recurring revenue for your DTC brand.</p>
             <button className="mt-4 px-4 py-2 bg-[#0f0c28] hover:bg-gray-500 text-white font-semibold rounded">Book a Demo</button>

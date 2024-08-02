@@ -55,7 +55,7 @@ const ProductBox = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 w-full">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 w-full ">
         {products.map((product) => (
           <div
             key={product.id}
@@ -82,7 +82,7 @@ const ProductBox = () => {
       </div>
 
       {selectedProduct && (
-        <div className="fixed top-0 right-0 bottom-0 w-full sm:w-1/3 bg-yellow-100 p-4 sm:p-6 shadow-lg overflow-y-auto">
+        <div className="fixed top-0 right-0 bottom-0 w-full sm:w-1/3 bg-yellow-200 p-4 sm:p-6 shadow-lg overflow-y-auto">
           <h2 className="text-xl sm:text-2xl font-bold mb-4">Add product</h2>
           <img
             src={selectedProduct.image}
@@ -105,11 +105,11 @@ const ProductBox = () => {
             />
             <button className="px-2 sm:px-3 py-1 sm:py-2 bg-gray-300 text-black rounded-r">+</button>
           </div>
-          <button className="px-4 sm:px-6 py-2 bg-green-600 text-white rounded-full">
+          <button className="px-4 sm:px-6 py-2 bg-green-900 text-white rounded-full">
             Add one-time, save 10%
           </button>
           <button
-            className="mt-4 block text-center text-gray-500"
+            className="mt-4 block text-center text-gray-900"
             onClick={() => setSelectedProduct(null)}
           >
             Close
